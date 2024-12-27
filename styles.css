@@ -1,0 +1,77 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: white;
+    overflow-x: hidden; /* Previene el desbordamiento horizontal */
+    background-color: transparent; /* Color de fondo general */
+}
+
+@media (max-width: 768px) {
+    
+    html {
+        background-image: url(fondo/fotofondo.jpeg);
+    }
+
+    .contain-img {
+        text-align: center;
+        margin: 2rem;
+    }
+    .contain-img img {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    @font-face {
+        font-family: "urwgroteskscreg";
+        src: url("font/urwgroteskscreg.ttf") format("truetype");
+    }
+
+    body {
+        font-family: "urwgroteskscreg", Arial, sans-serif;
+        background-image: url("images/fondo/fondo_menu.jpeg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        font-size: 1rem; 
+        margin: 0;
+        text-align: center;
+        text-shadow: 0 0 5px white;
+        font-size: 1rem; /* Usa rem para ajustar automáticamente en móviles */
+    }
+
+    hr {
+        border: none;
+        border-top: 1px solid white;
+        margin: 1rem 0 1rem 0;
+        text-shadow: 0 0 6px white;
+    }
+
+    #barra-navegacion {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        margin: 0;
+    }
+
+    #menu {
+        margin: 0.5rem;
+    }
+    #menu-especial {
+
+    }
+    #parrilla {
+
+    }
+    #vinos {
+
+    }
+    #bebidas{
+
+    }
+    #contacto {
+
+    }
+    
+}
